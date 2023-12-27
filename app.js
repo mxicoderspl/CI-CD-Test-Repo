@@ -5,7 +5,7 @@ require('dotenv').config();
 
 app.get('/', (req, res) => {
   res.json({
-    msg: `hello good Evening! this is test application and this is env variable ${process.env.secret_env}`
+    msg: `hello good Morning! this is test application and this is env variable ${process.env.secret_env}`
   });
 });
 
